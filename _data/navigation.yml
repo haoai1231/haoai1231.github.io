@@ -11,6 +11,6 @@ main:
   - title: "About"
     url: /
   - title: "Publications"
-    url: /_publications/
+    url: /publications/
   - title: "CV"
     url: /cv/
