@@ -11,6 +11,7 @@ I am AiHao. Since Fall 2024, I have been pursuing a Master’s degree in Mathema
 
 ---
 
-## 📢 News
+## 📢 News  (🌟 Looking forward to good news!)
 
-* **[Nov. 2025]** 🌟 Looking forward to good news!
+* **[Oct. 2025]** 📝 We have released a new preprint that establishes the mathematical foundations of the PeF floorplanner. We provide a variational analysis to explain why it is consistently effective and robust. Check it out [here](https://arxiv.org/abs/2510.08126).
+* **[Oct. 2025]** 🎉 One paper has been accepted by TCAD. Congratulations and thanks to my collaborators.
