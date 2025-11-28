@@ -7,8 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is AiHao, and I am currently a master's student at Fuzhou University.
-My main research areas are physical design and multiphysics computation in Electronic Design Automation (EDA).
+I am AiHao, currently a master’s student at Fuzhou University. My research interests include physical design and multiphysics computation in Electronic Design Automation (EDA).
 
 ---
 
