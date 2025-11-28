@@ -7,8 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-目前还没有人找我做过报告... (但我时刻准备着！😎)
-
 *Currently, I haven't been invited to give any talks yet. (Waiting for the call! 📞)*
 
 ---
