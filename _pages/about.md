@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am  Hao Ai (艾浩). Since Fall 2024, I have been pursuing a Master’s degree in Mathematics at Fuzhou University. My research centers on Electronic Design Automation (EDA), with a specific focus on physical design and multiphysics computation. Prior to this, I conducted research on the dynamics of stochastic delay systems and stochastic control.
+I am  Hao Ai. Since Fall 2024, I have been pursuing a Master’s degree in Mathematics at Fuzhou University. My research centers on Electronic Design Automation (EDA), with a specific focus on physical design and multiphysics computation. Prior to this, I conducted research on the dynamics of stochastic delay systems and stochastic control.
 
 ---
 
