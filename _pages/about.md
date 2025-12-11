@@ -13,5 +13,6 @@ I am  Hao Ai. Since Fall 2024, I have been pursuing a Master’s degree in Mathe
 
 ## 📢 News  ( Looking forward to good news! 🌟)
 
+* **[Dec. 2025]** 🏆 Awarded the “Ten Outstanding Academic Youths” by the School of Mathematics and Statistics, Fuzhou University.
 * **[Oct. 2025]** 📝 We have released a new preprint that establishes the mathematical foundations of the PeF floorplanner. We provide a variational analysis to explain why it is consistently effective and robust. Check it out [here](https://arxiv.org/abs/2510.08126).
 * **[Oct. 2025]** 🎉 One paper has been accepted by TCAD. Congratulations and thanks to my collaborators.
