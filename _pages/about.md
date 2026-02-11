@@ -7,7 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am  Hao Ai. Since Fall 2024, I have been pursuing a Master’s degree in Mathematics at Fuzhou University. My research centers on Electronic Design Automation (EDA), with a specific focus on physical design and multiphysics computation. Prior to this, I conducted research on the dynamics of stochastic delay systems and stochastic control.
+I am Hao Ai, a graduate researcher at Fuzhou University. I am currently pursuing my Master’s degree in Mathematics and will commence my Ph.D. studies in Fall 2026.
+
+My primary research focuses on Electronic Design Automation (EDA), with specific interests in  optimization algorithmic for physical design and fast solvers for multiphysics computation (especially thermal simulation). Additionally, I am  interests in the dynamic analysis, application, and implementation of memristive systems. Previously, I conducted research on the dynamics of stochastic delay systems and stochastic control.
+
+Current Research & Focus Currently, I am dedicated to developing high-efficiency and high-accuracy thermal simulator. Beyond simulation, I aim to leverage my mathematical background to provide theoretical rigor for EDA physical design algorithms, specifically focusing on formal validity proofs and mathematical frameworks for algorithmic acceleration. I am keen to engage in academic discussions and explore potential collaborations regarding physical design and multiphysics solvers. If you are interested in my work or wish to discuss collaborative opportunities, please feel free to reach out.
 
 ---
 
