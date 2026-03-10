@@ -1,7 +1,7 @@
 ---
 title: "Analytically-Derived Hybrid Net–Pin Weighting for Timing-Driven Global Placement"
 collection: publications
-permalink: /publication/2025-10-12-TCAD-Thermal
+permalink: /publication/2026-3-10-DAC-Analytically
 category: manuscripts
 date: 2026-3-10
 venue: 'ACM/IEEE Design Automation Conference (DAC)'
