@@ -84,7 +84,9 @@ publication_category:
   conferences:
     title: 'Conference Papers'
   journals:
-    title: 'Journal Articles'   
+    title: 'Journal Articles'
+  manuscripts:
+    title: "Preprints"
   books:
     title: 'Books'
 
