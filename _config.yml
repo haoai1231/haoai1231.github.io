@@ -81,15 +81,13 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-    prefix: "B"
   conferences:
     title: 'Conference Papers'
-    prefix: "C"
   journals:
-    title: 'Journal Articles' 
-    prefix: "J"
+    title: 'Journal Articles'   
+  books:
+    title: 'Books'
+
 
 
 # Site Settings
