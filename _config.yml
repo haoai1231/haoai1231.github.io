@@ -83,10 +83,16 @@ author:
 publication_category:
   books:
     title: 'Books'
+    prefix: "B"
   conferences:
     title: 'Conference Papers'
+    prefix: "C"
+  journals:
+    title: 'Journal Articles' 
+    prefix: "J"
   manuscripts:
-    title: 'Journal Articles'    
+    title: "Preprints & Manuscripts"
+    prefix: "P"
 
 
 # Site Settings
