@@ -1,52 +1,63 @@
----
 layout: archive
+
 title: "Publications"
+
 permalink: /publications/
+
 author_profile: true
+
 ---
 
+
+
 {% if site.author.googlescholar %}
+
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+
 {% endif %}
+
+
 
 {% include base_path %}
 
+
+
 <!-- New style rendering if publication categories are defined -->
+
 {% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign category_slug = category[0] %}
-    {% assign category_info = category[1] %}
-    
-    {% assign category_posts = site.publications | where: "category", category_slug %}
-    
-    {% if category_posts.size > 0 %}
-      <h2>{{ category_info.title }}</h2><hr />
-      
-      {% assign count = category_posts.size %}
-      
-      {% for post in category_posts reversed %}
-        
-        <div class="pub-numbered-item" style="display: flex; align-items: flex-start; margin-bottom: 1em;">
-          
-          <span class="pub-index" style="font-weight: bold; color: #2b3e50; min-width: 45px; flex-shrink: 0; margin-top: 2px;">
-            [{{ category_info.prefix }}{{ count }}]
-          </span>
-          
-          <div class="pub-content" style="flex-grow: 1;">
-            {% include archive-single.html %}
-          </div>
-          
-        </div>
-        {% assign count = count | minus: 1 %}
-      {% endfor %}
-    {% endif %}
+
+  {% for category in site.publication_category  %}
+
+    {% assign title_shown = false %}
+
+    {% for post in site.publications reversed %}
+
+      {% if post.category != category[0] %}
+
+        {% continue %}
+
+      {% endif %}
+
+      {% unless title_shown %}
+
+        <h2>{{ category[1].title }}</h2><hr />
+
+        {% assign title_shown = true %}
+
+      {% endunless %}
+
+      {% include archive-single.html %}
+
+    {% endfor %}
+
   {% endfor %}
+
 {% else %}
+
   {% for post in site.publications reversed %}
+
     {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-  {% endfor %}
-{% endif %}
 
+  {% endfor %}
 
+{% endif %}
