@@ -90,9 +90,6 @@ publication_category:
   journals:
     title: 'Journal Articles' 
     prefix: "J"
-  manuscripts:
-    title: "Preprints & Manuscripts"
-    prefix: "P"
 
 
 # Site Settings
