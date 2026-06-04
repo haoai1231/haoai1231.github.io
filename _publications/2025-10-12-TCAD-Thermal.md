@@ -5,5 +5,6 @@ collection: journals
 category: journals
 date: 2025-10-12
 venue: 'IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)'
-citation: 'Hao Ai, Liang Chen, Jianhua Zhang, Bei Yu, Wenxing Zhu. "Fast Steady-State Thermal Analysis with Separation of Variables and Discrete Cosine Transform." <i>IEEE TCAD</i>. (Accepted/In Press).'
+paperurl: 'https://doi.org/10.1109/TCAD.2025.3621892'
+citation: 'Hao Ai, Liang Chen, Jianhua Zhang, Bei Yu, Wenxing Zhu. (2026). &quot;Fast Steady-State Thermal Analysis With Separation of Variables and Discrete Cosine Transform.&quot; <i>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>, 45(6), 2649-2663.'
 ---
