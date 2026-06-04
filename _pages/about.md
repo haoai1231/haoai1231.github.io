@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Hao Ai, a graduate researcher at Fuzhou University. I am currently pursuing my Master’s degree in Mathematics and will commence my Ph.D. studies in Fall 2026.
+I am Hao Ai, a graduate student at Fuzhou University. I am currently pursuing my Master’s degree in Mathematics and will commence my Ph.D. studies in Fall 2026.
 
 My primary research focuses on Electronic Design Automation (EDA), with specific interests in  optimization algorithmic for physical design and fast solvers for multiphysics computation (especially thermal simulation). Previously, I conducted research on the dynamics and control of stochastic time-delay systems.
 
@@ -17,8 +17,9 @@ Current Research & Focus: Currently, I am dedicated to developing high-efficienc
 
 ## 📢 News  ( Looking forward to good news! 🌟)
 
+* **[Jun. 2026]** 🥂 Cheers! Our paper was accepted by IEEE TC. So grateful to my collaborators!
 * **[Mar. 2026]** 🎉 One paper has been accepted by ISEDA. Congratulations and thanks to my collaborators.
 * **[Mar. 2026]** 🎉 Two papers have been accepted by DAC. Congratulations and thanks to my collaborators.
 * **[Dec. 2025]** 🏆 Awarded the “Ten Outstanding Academic Youths” by the School of Mathematics and Statistics, Fuzhou University.
 * **[Oct. 2025]** 📝 We have released a new preprint that establishes the mathematical foundations of the PeF floorplanner. We provide a variational analysis to explain why it is consistently effective and robust. Check it out [here](https://arxiv.org/abs/2510.08126).
-* **[Oct. 2025]** 🎉 One paper has been accepted by TCAD. Congratulations and thanks to my collaborators.
+* **[Oct. 2025]** 🎉 One paper has been accepted by IEEE TCAD. Congratulations and thanks to my collaborators.
