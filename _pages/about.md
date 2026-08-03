@@ -14,13 +14,13 @@ My primary research focuses on Electronic Design Automation (EDA), with specific
 Current Research & Focus: Currently, I am dedicated to developing high-efficiency and high-accuracy thermal simulator. Beyond simulation, I aim to leverage my mathematical background to provide theoretical rigor for EDA physical design algorithms, specifically focusing on formal validity proofs and mathematical frameworks for algorithmic acceleration. I am keen to engage in academic discussions and explore potential collaborations regarding physical design and multiphysics solvers. If you are interested in my work or wish to discuss collaborative opportunities, please feel free to reach out.
 
 ---
-## Selected Awards 🏆
+## Selected Awards 
 
 Best Paper Award Nomination  &emsp;   DAC  &emsp;    2026
 
 ---
 
-## 📢 News  ( Looking forward to good news! 🌟)
+## 📢 News  ( Looking forward to good news! )
 * **[Jul. 2026]** 🥂 Cheers! Our paper FLASH3D: A Fast Layered Analytical Solver for High-Accuracy Steady-State Thermal Simulation of 3D ICs was nominated as Best Paper in DAC. 
 * **[Jun. 2026]** 🥂 Cheers! Our paper was accepted by IEEE TC. So grateful to my collaborators!
 * **[Mar. 2026]** 🎉 One paper has been accepted by ISEDA. Congratulations and thanks to my collaborators.
