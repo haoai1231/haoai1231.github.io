@@ -15,7 +15,9 @@ Current Research & Focus: Currently, I am dedicated to developing high-efficienc
 
 ---
 ## Selected Awards 🏆
-* Best Paper Award Nomination  &emsp;   DAC  &emsp;    2026
+
+Best Paper Award Nomination  &emsp;   DAC  &emsp;    2026
+
 ---
 
 ## 📢 News  ( Looking forward to good news! 🌟)
