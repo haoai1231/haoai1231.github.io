@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Hao Ai, a graduate student at Fuzhou University. I am currently pursuing my Master’s degree in Mathematics and will commence my Ph.D. studies in Fall 2026.
+I am Hao Ai, a Ph.D. student in Mathematics at Fuzhou University.
 
 My primary research focuses on Electronic Design Automation (EDA), with specific interests in  optimization algorithmic for physical design and fast solvers for multiphysics computation (especially thermal simulation). Previously, I conducted research on the dynamics and control of stochastic time-delay systems.
 
