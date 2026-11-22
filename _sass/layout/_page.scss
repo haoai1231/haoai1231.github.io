@@ -48,6 +48,37 @@
   font-size: $type-size-4;
 }
 
+/* Plain award lines with aligned award, venue, and year columns. */
+.awards-list {
+  display: grid;
+  row-gap: 0.35em;
+  max-width: 28em;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  .award-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 4em 4ch;
+    column-gap: 1em;
+    align-items: baseline;
+    margin: 0;
+  }
+
+  .award-name {
+    min-width: 0;
+  }
+
+  .award-venue,
+  .award-year {
+    white-space: nowrap;
+  }
+
+  .award-year {
+    text-align: right;
+  }
+}
+
 .page__content {
 
   h2 {

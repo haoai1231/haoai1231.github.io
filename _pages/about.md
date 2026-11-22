@@ -16,9 +16,23 @@ Current Research & Focus: Currently, I am dedicated to developing high-efficienc
 ---
 ## Selected Awards
 
-Best Paper Award Nomination &emsp; ICCAD &emsp; 2026  
-Best Paper Award Nomination &emsp; DAC &emsp; 2026  
-Honorable Mention in CAD Contest &emsp; ICCAD &emsp; 2026
+<ul class="awards-list" role="list">
+  <li class="award-row">
+    <span class="award-name">Best Paper Award Nomination</span>
+    <span class="award-venue">ICCAD</span>
+    <span class="award-year">2026</span>
+  </li>
+  <li class="award-row">
+    <span class="award-name">Best Paper Award Nomination</span>
+    <span class="award-venue">DAC</span>
+    <span class="award-year">2026</span>
+  </li>
+  <li class="award-row">
+    <span class="award-name">Honorable Mention in CAD Contest</span>
+    <span class="award-venue">ICCAD</span>
+    <span class="award-year">2026</span>
+  </li>
+</ul>
 
 {% comment %}
 ---
