@@ -52,21 +52,21 @@
 .awards-list {
   display: grid;
   row-gap: 0.65em;
-  max-width: 32em;
+  width: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
 
   .award-row {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 4em 4ch;
-    column-gap: 2em;
+    grid-template-columns: 50% 33% 17%;
     align-items: baseline;
     margin: 0;
   }
 
   .award-name {
     min-width: 0;
+    padding-right: 1em;
   }
 
   .award-venue,
@@ -75,7 +75,7 @@
   }
 
   .award-year {
-    text-align: right;
+    text-align: left;
   }
 }
 
