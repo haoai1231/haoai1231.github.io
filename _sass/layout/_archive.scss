@@ -118,11 +118,16 @@
   }
 }
 
+.publication-category-title {
+  margin: 0.85em 0 0.5em;
+  font-size: 0.9em;
+}
+
 .publication-list {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-size: 0.85em;
+  font-size: calc(0.85em - 2px);
   line-height: 1.55;
 
   .publication-item {

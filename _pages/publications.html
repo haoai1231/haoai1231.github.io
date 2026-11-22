@@ -20,18 +20,27 @@ publication_prefixes:
 {% for year in publication_years %}
   <section class="publication-year" aria-labelledby="publications-{{ year.name }}">
     <h2 id="publications-{{ year.name }}">{{ year.name }}</h2>
-    <ul class="publication-list" role="list">
-    {% for post in year.items %}
-      {% assign category_publications = publications | where: 'category', post.category %}
-      {% for category_post in category_publications %}
-        {% if category_post.path == post.path %}
-          {% assign publication_number = forloop.index %}
-          {% break %}
-        {% endif %}
-      {% endfor %}
-      {% assign publication_prefix = page.publication_prefixes[post.category] | default: 'P' %}
-      {% include publication-entry.html post=post prefix=publication_prefix number=publication_number %}
+    {% for category in page.publication_prefixes %}
+      {% assign category_key = category[0] %}
+      {% assign year_publications = year.items | where: 'category', category_key | sort: 'date' | reverse %}
+      {% if year_publications.size > 0 %}
+        <section class="publication-category" aria-labelledby="publications-{{ year.name }}-{{ category_key }}">
+          <h3 class="publication-category-title" id="publications-{{ year.name }}-{{ category_key }}">{{ site.publication_category[category_key].title | default: category_key | escape }}</h3>
+          <ul class="publication-list" role="list">
+          {% assign category_publications = publications | where: 'category', category_key %}
+          {% for post in year_publications %}
+            {% for category_post in category_publications %}
+              {% if category_post.path == post.path %}
+                {% assign publication_number = forloop.index %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+            {% assign publication_prefix = category[1] %}
+            {% include publication-entry.html post=post prefix=publication_prefix number=publication_number %}
+          {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
     {% endfor %}
-    </ul>
   </section>
 {% endfor %}
