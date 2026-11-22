@@ -14,10 +14,15 @@ My primary research focuses on Electronic Design Automation (EDA), with specific
 Current Research & Focus: Currently, I am dedicated to developing high-efficiency and high-accuracy thermal simulator. Beyond simulation, I aim to leverage my mathematical background to provide theoretical rigor for EDA physical design algorithms, specifically focusing on formal validity proofs and mathematical frameworks for algorithmic acceleration. I am keen to engage in academic discussions and explore potential collaborations regarding physical design and multiphysics solvers. If you are interested in my work or wish to discuss collaborative opportunities, please feel free to reach out.
 
 ---
-## Selected Awards 
+## Selected Awards
 
-Best Paper Award Nomination  &emsp;   DAC  &emsp;    2026
+| Award | Venue | Year |
+| :--- | :--- | :---: |
+| Best Paper Award Nomination | ICCAD | 2026 |
+| Best Paper Award Nomination | DAC | 2026 |
+| [Honorable Mention in CAD Contest (Problem C)](https://www.iccad-contest.org/Winners.html) | ICCAD | 2026 |
 
+{% comment %}
 ---
 
 ## 📢 News  ( Looking forward to good news! )
@@ -28,3 +33,4 @@ Best Paper Award Nomination  &emsp;   DAC  &emsp;    2026
 * **[Dec. 2025]** 🏆 Awarded the “Ten Outstanding Academic Youths” by the School of Mathematics and Statistics, Fuzhou University.
 * **[Oct. 2025]** 📝 We have released a new preprint that establishes the mathematical foundations of the PeF floorplanner. We provide a variational analysis to explain why it is consistently effective and robust. Check it out [here](https://arxiv.org/abs/2510.08126).
 * **[Oct. 2025]** 🎉 One paper has been accepted by IEEE TCAD. Congratulations and thanks to my collaborators.
+{% endcomment %}
