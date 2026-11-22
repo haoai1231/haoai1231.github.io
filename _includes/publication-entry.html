@@ -1,0 +1,20 @@
+{% assign publication = include.post %}
+<li class="publication-item" data-date="{{ publication.date | date: '%Y-%m-%d' }}">
+  <span class="publication-number">[{{ include.prefix }}{{ include.number }}]</span>
+  <span class="publication-citation">
+    {% if publication.citation %}
+      {{ publication.citation | replace: 'Hao Ai', '<strong>Hao Ai</strong>' }}
+    {% else %}
+      {{ publication.title | escape }}. <em>{{ publication.venue | escape }}</em>, {{ publication.date | date: '%Y' }}.
+    {% endif %}
+    {% if publication.paperurl %}
+      <a class="publication-link" href="{{ publication.paperurl | escape }}" aria-label="Paper: {{ publication.title | escape }}">[Paper]</a>
+    {% endif %}
+    {% if publication.slidesurl %}
+      <a class="publication-link" href="{{ publication.slidesurl | escape }}" aria-label="Slides: {{ publication.title | escape }}">[Slides]</a>
+    {% endif %}
+    {% if publication.bibtexurl %}
+      <a class="publication-link" href="{{ publication.bibtexurl | escape }}" aria-label="BibTeX: {{ publication.title | escape }}">[BibTeX]</a>
+    {% endif %}
+  </span>
+</li>

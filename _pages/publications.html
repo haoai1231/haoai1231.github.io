@@ -3,31 +3,35 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+publication_prefixes:
+  journals: J
+  conferences: C
+  preprints: P
+  books: B
 ---
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+{% assign publications = site.publications | sort: 'date' %}
+{% assign publication_years = publications | reverse | group_by_exp: 'post', "post.date | date: '%Y'" %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
+{% for year in publication_years %}
+  <section class="publication-year" aria-labelledby="publications-{{ year.name }}">
+    <h2 id="publications-{{ year.name }}">{{ year.name }}</h2>
+    <ul class="publication-list" role="list">
+    {% for post in year.items %}
+      {% assign category_publications = publications | where: 'category', post.category %}
+      {% for category_post in category_publications %}
+        {% if category_post.path == post.path %}
+          {% assign publication_number = forloop.index %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      {% assign publication_prefix = page.publication_prefixes[post.category] | default: 'P' %}
+      {% include publication-entry.html post=post prefix=publication_prefix number=publication_number %}
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+    </ul>
+  </section>
+{% endfor %}
