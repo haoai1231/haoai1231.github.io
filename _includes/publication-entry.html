@@ -1,5 +1,5 @@
 {% assign publication = include.post %}
-<li class="publication-item" data-date="{{ publication.date | date: '%Y-%m-%d' }}">
+<li class="publication-item" data-status="{{ publication.status | default: 'published' }}"{% unless publication.status == 'accepted' %} data-date="{{ publication.date | date: '%Y-%m-%d' }}"{% endunless %}>
   <span class="publication-number">[{{ include.prefix }}{{ include.number }}]</span>
   <span class="publication-citation">
     {% if publication.citation %}

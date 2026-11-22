@@ -5,5 +5,5 @@ permalink: /publication/2026-3-10-DAC-FLASH3D
 category: conferences
 date: 2026-07-26
 venue: 'ACM/IEEE Design Automation Conference (DAC)'
-citation: 'Hao Ai, Liang Chen, Jianhua Zhang and Wenxing Zhu, "FLASH3D: A Fast Layered Analytical Solver for High-Accuracy Steady-State Thermal Simulation of 3D ICs", ACM/IEEE Design Automation Conference (DAC), Long Beach, Jul. 26–29, 2026. <strong>(Best Paper Award Nomination)</strong>'
+citation: 'Hao Ai, Liang Chen, Jianhua Zhang and Wenxing Zhu, "FLASH3D: A Fast Layered Analytical Solver for High-Accuracy Steady-State Thermal Simulation of 3D ICs", ACM/IEEE Design Automation Conference (DAC), Long Beach, Jul. 26–29, 2026. <strong class="publication-award">(Best Paper Award Nomination)</strong>'
 ---

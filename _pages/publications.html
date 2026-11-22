@@ -14,8 +14,21 @@ publication_prefixes:
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% assign publications = site.publications | sort: 'date' %}
+{% assign accepted_publications = site.publications | where: 'status', 'accepted' | sort: 'date' | reverse %}
+{% assign publications = site.publications | where_exp: 'post', "post.status != 'accepted'" | sort: 'date' %}
 {% assign publication_years = publications | reverse | group_by_exp: 'post', "post.date | date: '%Y'" %}
+
+{% if accepted_publications.size > 0 %}
+  <section class="publication-accepted" aria-labelledby="publications-accepted">
+    <h2 id="publications-accepted">Accepted</h2>
+    <ul class="publication-list" role="list">
+    {% for post in accepted_publications %}
+      {% assign publication_prefix = page.publication_prefixes[post.category] | default: 'J' %}
+      {% include publication-entry.html post=post prefix=publication_prefix number="" %}
+    {% endfor %}
+    </ul>
+  </section>
+{% endif %}
 
 {% for year in publication_years %}
   <section class="publication-year" aria-labelledby="publications-{{ year.name }}">
